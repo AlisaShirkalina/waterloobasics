@@ -517,6 +517,7 @@ header{
     height: 200px;
     width: auto;
     background-color: var(--yellowcolor);
+	color: var(--whitecolor);
 }
 
 .option__universities{
@@ -530,3 +531,52 @@ header{
     width: auto;
     background-color: var(--yellowcolor);
 }
+
+/*Compare programs page*/
+.programs_title{
+	font-size: var(--bigfont);
+    color: var(--blackcolor);
+	text-align: center;
+}
+
+.programs_text{
+	font-size: var(--normalfont);
+    color: var(--blackcolor);
+	text-align: left;
+	margin: 10px 100px 20px;
+}
+
+.programs_subheader{
+	font-size: var(--h2-font);
+    color: var(--blackcolor);
+	text-align: left;
+	margin: 20px 100px;
+}
+
+/* .select_section{
+	width:100px;
+    margin-right:30px;
+    float:left;
+}
+
+.select_subheader{
+	font-size: var(--h2-font);
+    color: var(--blackcolor);
+	text-align: center;
+}
+
+.info_section{
+	overflow:hidden;
+}
+
+.info_subheader{
+	font-size: var(--h2-font);
+    color: var(--blackcolor);
+	text-align: center;
+}
+
+.topic_list{
+	padding-top: 0.54rem;
+    display: flex;
+    justify-content: center;
+} */
